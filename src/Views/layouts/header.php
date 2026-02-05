@@ -1,7 +1,7 @@
 <?php
 // Aseguramos que la sesión esté iniciada para mostrar el menú correcto
 if (session_status() === PHP_SESSION_NONE) {
-  session_start();
+
 }
 ?>
 <!DOCTYPE html>

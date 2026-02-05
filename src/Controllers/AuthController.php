@@ -32,6 +32,7 @@ class AuthController
      */
     public function login()
     {
+
         if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
             header('Location: /login');
             exit;
@@ -64,6 +65,8 @@ class AuthController
             header('Location: /login');
             exit;
         }
+
+
     }
 
     /**
